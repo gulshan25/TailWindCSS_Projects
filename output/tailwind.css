@@ -693,6 +693,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     --tw-text-opacity: 1;
     color: rgb(192 132 252 / var(--tw-text-opacity));
   }
+
+  .dark\:focus\:ring-offset-gray-800:focus {
+    --tw-ring-offset-color: #1f2937;
+  }
 }
 
 @media (min-width: 640px) {
@@ -732,5 +736,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:text-left {
     text-align: left;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .sm\:dark\:hover\:bg-gray-700:hover {
+      --tw-bg-opacity: 1;
+      background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+    }
   }
 }
