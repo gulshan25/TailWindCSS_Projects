@@ -1,14 +1,22 @@
 {
-    "name": "new-folder",
+    "name": "tailwind-project",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gulshan25/TailWindCSS_Projects.git"
+    },
     "keywords": [],
     "author": "",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gulshan25/TailWindCSS_Projects/issues"
+    },
+    "homepage": "https://github.com/gulshan25/TailWindCSS_Projects#readme",
     "devDependencies": {
         "tailwindcss": "^3.0.24"
     }
